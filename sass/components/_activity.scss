@@ -1,0 +1,35 @@
+.our-activity {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+}
+
+.activity-list {
+    display: flex;
+}
+
+.activity-box {
+    position: relative;
+    z-index: -1;
+}
+
+.label {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    text-align: center;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.label-text {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    align-self: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
