@@ -20,7 +20,10 @@
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+&:hover, &:focus{
+    color: var(--accent-color);
 }
+    }
 .footer .adress {
     color: #ffffff;
     font-weight: 400;
@@ -72,12 +75,10 @@
 
 .footer-social .social-link {
     background-color: rgba(255, 255, 255, 0.1);
-}
-
-.footer-social .social-link:hover,
-.footer-social .social-link:focus {
-    background-color: var(--accent-color);
-}
+&:hover, &:focus{
+ background-color: var(--accent-color);
+}   
+}   
 
 .footer-button {
     display: flex;

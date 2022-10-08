@@ -21,6 +21,9 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+&:hover, &:focus{
+color: var(--accent-color);
+}
 }
 
 .nav-link:hover .nav-link:after {
@@ -35,12 +38,6 @@
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    color: var(--accent-color);
-    font-weight: 500;
 }
 
 .current-link {

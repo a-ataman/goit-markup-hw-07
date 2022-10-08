@@ -12,7 +12,10 @@
     position: relative;
     z-index: -1;
 }
-
+.activity-list li:not(:first-child) {
+    margin-right: 0;
+    margin-left: 30px;
+}
 .label {
     position: absolute;
     display: flex;
